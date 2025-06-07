@@ -21,8 +21,9 @@ Create bot with Telegram: https://core.telegram.org/bots
 Example `docker-compose.yml` file in repo. Environment variables required:
 * *TELEGRAM_TOKEN*: Telegram bot access token
 * *TELEGRAM_CHAT_ID*: Telegram chat group ID (bot must have been invited to this chat already)
-* *HOUSE_NUMBER*: House number to check bins for
-* *HOUSE_POSTCODE*: Postcode to check bins for
+* *POST_CODE*: Your post code number to check bins for
+* *ADDRESS*: Your home address to check bins for (e.g. `123 Example Street`)
+* *HOME_URL*: URL of the North Herts bin collection page (e.g. `https://waste.nc.north-herts.gov.uk/w/webpage/find-bin-collection-day-input-address`)
 
 Start (in directory): `docker-compose -p bins up -d`
 
